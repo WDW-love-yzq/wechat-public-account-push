@@ -6,12 +6,12 @@
  * 自行添加属性，以支持更多个性化功能
  */
 const USER_CONFIG = {
-
+  USE_PASSAGE:'push-plus',
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wxd7d1853992f30ba4',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '863deda4e6efde6b0887c6c209c79bf3',
+  APP_SECRET: '',
 
   PROVINCE: '山东',
   CITY: '青岛',
@@ -21,7 +21,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'wxd7d1853992f30ba4',
+      id: '29a331f10b40410eaf836ed128934c04',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
