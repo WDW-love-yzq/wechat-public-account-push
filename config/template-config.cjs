@@ -53,5 +53,4 @@ const TEMPLATE_CONFIG = [
     `
   },
 ]
-
 module.exports = TEMPLATE_CONFIG
