@@ -27,7 +27,7 @@ const USER_CONFIG = {
   // 此项不建议随意修改
   MAX_PUSH_ONE_MINUTE: 5,
   // 配合MAX_PUSH_ONE_MINUTE使用，休眠<SLEEP_TIME>毫秒后再发送剩余消息，不填则默认为65000
-  SLEEP_TIME: 65000,
+  SLEEP_TIME: 10,
 
   // 功能开关,打开：true，关闭：false
   SWITCH: {
