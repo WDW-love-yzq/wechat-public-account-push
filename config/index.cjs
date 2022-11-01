@@ -70,7 +70,7 @@ const USER_CONFIG = {
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
     courseSchedule: true,
   },
-  
+ /** 
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: '',
@@ -91,7 +91,7 @@ const USER_CONFIG = {
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'default',
   },
-  
+  */
   /** 是否给文字设置多彩颜色, 和emoji不兼容 */
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
   IS_SHOW_COLOR: true,
@@ -111,7 +111,7 @@ const USER_CONFIG = {
       name: '老婆0',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'wxc3046f8d1c520fd9',
+      id: '29a331f10b40410eaf836ed128934c04',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '0001',
@@ -217,6 +217,7 @@ const USER_CONFIG = {
         }
       },
     },
+    /**
     {
       name: '老婆1',
       id: '',
@@ -256,6 +257,7 @@ const USER_CONFIG = {
       customizedDateList: [],
       courseSchedule: null
     }
+    */
     // 你可以不断按格式往下增加
     // ...
   ],
@@ -275,7 +277,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'wxc3046f8d1c520fd9',
+      id: '29a331f10b40410eaf836ed128934c04',
     }
     // 你可以不断按格式往下增加
     // ...
