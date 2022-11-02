@@ -220,20 +220,30 @@ const USER_CONFIG = {
         }
       },
     },
-    /**
+    
+      USERS: [
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: '妈妈',
+      id: '29a331f10b40410eaf836ed128934c04',
+      useTemplateId: '0001',
+      province: '北京',
+      city: '海淀',
+      horoscopeDate: '12-24',
+      horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      festivals: [
+           {
+          type: '生日', name: '妈妈', year: '1975', date: '12-24',
+        }
+
+     ],
+      customizedDateList: [
+            { keyword: 'love_day', date: '2000-06-19' }
+
+],
       courseSchedule: null
     },
+    /**
     {
       name: '老婆2',
       id: '',
