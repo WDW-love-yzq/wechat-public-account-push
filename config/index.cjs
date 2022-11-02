@@ -133,7 +133,7 @@ const USER_CONFIG = {
           type: '*生日', name: '宝贝', year: '2001', date: '05-05',
         },
         {
-          type: '节日', name: '纪念日', year: '2022', date: '02-18',
+          type: '节日', name: '纪念日', year: '2022', date: '11-18',
         }
         /**
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
@@ -148,9 +148,9 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-02-18' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-11-18' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
