@@ -220,8 +220,7 @@ const USER_CONFIG = {
         }
       },
     },
-    
-      USERS: [
+   
     {
       name: '妈妈',
       id: '29a331f10b40410eaf836ed128934c04',
