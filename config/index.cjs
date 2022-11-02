@@ -116,9 +116,9 @@ const USER_CONFIG = {
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '0001',
       // 所在省份或城市，也可以不填
-      province: '青岛',
+      province: '惠州',
       // 所在城市或县区
-      city: '崂山',
+      city: '惠阳',
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '12-27',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
