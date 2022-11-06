@@ -111,8 +111,8 @@ const USER_CONFIG = {
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      //id: '29a331f10b40410eaf836ed128934c04',
-      id:'472db37c6e2f4058940dbbe528115db8',
+      id: '29a331f10b40410eaf836ed128934c04',
+      //id:'472db37c6e2f4058940dbbe528115db8',dawei
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: '0001',
@@ -121,7 +121,7 @@ const USER_CONFIG = {
       // 所在城市或县区
       city: '青岛',
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '06-25',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -224,7 +224,7 @@ const USER_CONFIG = {
    
     {
       name: '妈妈',
-      id: '5c4cb88d75bb4604812a511f71278b16',
+      id: 'db9a684b201c4959b6e34c77b83190af',
       useTemplateId: '0001',
       province: '北京',
       city: '海淀',
