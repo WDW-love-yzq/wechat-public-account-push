@@ -108,7 +108,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '宝贝',color: 'color1'，
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
       id: '29a331f10b40410eaf836ed128934c04',
@@ -224,7 +224,7 @@ const USER_CONFIG = {
    
     {
       name: '妈妈',
-      id: 'db9a684b201c4959b6e34c77b83190af',
+      //id: 'db9a684b201c4959b6e34c77b83190af',
       useTemplateId: '0001',
       province: '北京',
       city: '海淀',
